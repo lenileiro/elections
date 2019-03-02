@@ -6,4 +6,4 @@ services:
     volumes:
       - ./backend:/usr/src/app
     ports:
-      - "5000:80"
+      - "5000:5002"
