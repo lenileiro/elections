@@ -8,7 +8,9 @@ def fetch_products():
                 'products': [
                         'Ice cream',
                         'Chocolate',
-                        'Fruits'
+                        'Fruits',
+                        'sweets',
+                        'apples'
                         ]
                 }
 
