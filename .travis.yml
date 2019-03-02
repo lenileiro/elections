@@ -9,3 +9,6 @@ before_script: pip install docker-compose
 
 script:
   - docker-compose run backend sh -c "coverage run --source=app/api -m pytest && coverage report"
+  
+after_success:
+- coveralls
