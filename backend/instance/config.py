@@ -9,7 +9,7 @@ class Config(object):
 
 class Development(Config):
     """ Development configurations are put here """
-    DEBUG = False
+    DEBUG = True
     DATABASE_URI = os.getenv('DATABASE_URL')
 
 
