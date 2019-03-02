@@ -10,7 +10,8 @@ def fetch_products():
                         'Chocolate',
                         'Fruits',
                         'sweets',
-                        'apples'
+                        'apples',
+                        'cakes'
                         ]
                 }
 
