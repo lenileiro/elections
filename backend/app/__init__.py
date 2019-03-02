@@ -17,7 +17,7 @@ def create_app(config_name):
     # documentations
     @app.route("/")
     def index():
-        return render_template("code_docs/index.html")
+        return render_template("index.html")
 
     @app.errorhandler(404)
     def resource_not_found(message):
