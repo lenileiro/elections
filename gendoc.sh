@@ -1,6 +1,7 @@
-#rm -rf backend/app/templates/code_docs
+rm -rf gh-pages
 cd docs
 Rscript -e "bookdown::render_book('index.rmd')"
-mv _book code_docs
+mv _book gh-pages
 rm -rf _book
-mv code_docs/ ../backend/app/templates/
+mv gh-pages/ ../
+rm -rf gh-pages

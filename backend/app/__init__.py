@@ -1,11 +1,11 @@
-from flask import Flask, make_response, jsonify, render_template
+from flask import Flask, make_response, jsonify,render_template
 from instance.config import app_config
 
 from flask import current_app
 
 
 def create_app(config_name):
-    app = Flask(__name__, template_folder='./docs/templates')
+    app = Flask(__name__)
 
     app.config.from_object(app_config[config_name])
     app.app_context().push()
@@ -17,7 +17,7 @@ def create_app(config_name):
     # documentations
     @app.route("/")
     def index():
-        return app.send_static_file("code_docs/index.html")
+        return render_template("code_docs/index.html")
 
     @app.errorhandler(404)
     def resource_not_found(message):
