@@ -1,3 +1,2 @@
 * linguist-vendored
 *.python linguist-vendored=false
-*.docker linguist-vendored=false
