@@ -44,9 +44,8 @@ def create_app(config_name):
     app.register_error_handler(405, method_not_allowed)
     app.register_error_handler(500, server_internal_error)
 
-
-    #print(app.config['DATABASE_URI'])
+    #blueprints
+    from app.api import product
+    app.register_blueprint(product.bp)
     
-
-
     return app

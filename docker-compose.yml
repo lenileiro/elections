@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  backend-service:
+  backend:
     build: ./backend
     volumes:
       - ./backend:/usr/src/app
