@@ -1,0 +1,3 @@
+[
+["index.html", "Election app documentation 1 Introduction", " Election app documentation Anthony Leiro 2019-03-02 1 Introduction This is a project an elections application where by citizen, politician and electral commission can perticipate on the election process. The main of the project to demostrate use of the following tectnologies. - Python Flask framework - Relational Database - Postgres - Container orchestration - Docker - Project Management - Pivotal Tracker - Continous Intergration - Travis CI - Test Driven Development - Coveralls - Git Version Control - Github - Application deployment - Heroku - Code Documentation - Rmarkdown - API Documentation - API Blueprint "]
+]
