@@ -1,7 +1,10 @@
-rm -rf gh-pages
+rm -rf hosting/public
 cd docs
 Rscript -e "bookdown::render_book('index.rmd')"
-mv _book gh-pages
+mv _book public
 rm -rf _book
-mv gh-pages/ ../
-rm -rf gh-pages
+mv public/ ../hosting/
+rm -rf public
+cd ..
+cd hosting
+firebase deploy
