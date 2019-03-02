@@ -5,6 +5,5 @@ mv _book public
 rm -rf _book
 mv public/ ../hosting/
 rm -rf public
-cd ..
-cd hosting
+cd ../hosting
 firebase deploy
