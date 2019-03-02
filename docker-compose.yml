@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  backend:
+    build: ./backend
+    volumes:
+      - ./backend:/usr/src/app
+    ports:
+      - "5000:8050"
+      - "5001:5000"
