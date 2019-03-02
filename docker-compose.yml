@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  backend-service:
+    build: ./backend
+    volumes:
+      - ./backend:/usr/src/app
+    ports:
+      - "5000:80"
