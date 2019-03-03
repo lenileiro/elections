@@ -1,3 +1,4 @@
+#!/bin/sh
 rm -rf hosting/public
 cd docs
 Rscript -e "bookdown::render_book('index.rmd')"

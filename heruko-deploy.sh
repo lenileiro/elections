@@ -1,3 +1,4 @@
+#!/bin/sh
 sudo docker-compose build
 cd backend
 heroku container:push web --app elections-v1

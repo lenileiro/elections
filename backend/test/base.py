@@ -1,4 +1,3 @@
-import json
 import unittest
 import instance
 from app import create_app

@@ -1,4 +1,4 @@
-from flask import Flask, make_response, jsonify,render_template
+from flask import Flask, make_response, jsonify, render_template
 from instance.config import app_config
 
 from flask import current_app
@@ -48,5 +48,4 @@ def create_app(config_name):
     app.register_error_handler(404, resource_not_found)
     app.register_error_handler(405, method_not_allowed)
     app.register_error_handler(500, server_internal_error)
-    
     return app
