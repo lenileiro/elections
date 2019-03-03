@@ -7,10 +7,10 @@ services:
 
 before_script: 
   - pip install docker-compose
-  - pip install coveralls
+  - pip install codecov
 
 script:
   - docker-compose run backend sh -c "coverage run --source=app/api -m pytest && coverage report"
 
 after_success:
-- coveralls
+- codecov
