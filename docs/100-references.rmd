@@ -1,0 +1,16 @@
+--- 
+title: "Election app documentation"
+author: "Anthony Leiro"
+description: "This book is a code documentation for the Election application"
+url: 'https://electionsdocs.firebaseapp.com/'
+github-repo: "lenileiro/elections"
+site: "bookdown::bookdown_site"
+bibliography: "`r getwd()`/references/collection.bib"
+biblio-style: "apalike"
+link-citations: true
+output:
+  bookdown::gitbook: default
+documentclass: book
+---
+
+# references {#references .unnumbered}

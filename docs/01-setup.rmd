@@ -1,0 +1,26 @@
+--- 
+title: "Election app documentation"
+author: "Anthony Leiro"
+description: "This book is a code documentation for the Election application"
+url: 'https://electionsdocs.firebaseapp.com/'
+github-repo: "lenileiro/elections"
+site: "bookdown::bookdown_site"
+bibliography: "`r getwd()`/references/collection.bib"
+biblio-style: "apalike"
+link-citations: true
+output:
+  bookdown::gitbook: default
+documentclass: book
+---
+
+# System requirements {-}
+
+These project was developed on Ubuntu 18.04 [@LinuxPlus]
+
+To install ubuntu on your work computer you would need to:
+
+ * Download Ubuntu from there official site [@Ubuntu]
+ * Install the iso file on a flash disk
+ * Boot the workstation computer from the USB disk
+ * Follow the installation guide on screen to complete installation process
+
